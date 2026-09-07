@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git ls-remote *)",
+      "Bash(grep -E \"^\\(\\\\.env$|service-account\\\\.json$\\)\")",
+      "Bash(git rm *)",
+      "Bash(git commit -m 'chore: ignore Next.js build artifacts and machine-specific files *)",
+      "Bash(git remote *)",
+      "Bash(git -C \"d:/Github/Realtime-Housefest\" ls-remote housefest main)",
+      "Bash(git commit -m 'fix\\(vercel\\): drop hardcoded Windows tracing root, run prisma generate on build *)"
+    ]
+  }
+}
